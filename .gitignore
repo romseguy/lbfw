@@ -1,0 +1,33 @@
+# dotfiles
+.env*
+
+# node modules
+/node_modules
+yarn-debug.log*
+yarn-error.log*
+
+# build
+tsconfig.tsbuildinfo
+*.zip
+*.tar.gz
+.next
+**/public/files/**
+**/public/workbox-*.js
+**/public/sw.js
+**/public/sw.js.map
+**/public/worker-*.js
+**/public/workbox-*.js.map
+
+# test
+/tests/pptr/*.jpg
+/tests/pptr/*.mp4
+
+# misc
+/logs
+*.mongodb.js
+*.mongodb
+TODO
+stuff.json
+stuff.js
+.backup
+.vercel
